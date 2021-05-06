@@ -1,4 +1,4 @@
-let obj = {
+let config = {
     "title": "HTML Table",
     "columns": [
         {
@@ -20,6 +20,43 @@ let obj = {
     ]
 }
 
+let data = [
+    {
+        "companyName": "ABC",
+        "contact": {
+            "phone": "0123654",
+            "email": "abc@yopmail.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    },
+    {
+        "companyName": "DEF",
+        "contact": {
+            "phone": "987123",
+            "email": "def@yopmail.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    }
+]
+
 function splitConfig(config) {
     let header = [];
     let value = [];
@@ -30,8 +67,31 @@ function splitConfig(config) {
     return { header, value };
 }
 
-let res = splitConfig(obj.columns);
+let res = splitConfig(config.columns);
 
 
 
-console.log(typeof res.header, typeof res.value);
+let header = res.header;
+let value = res.value;
+
+
+function search(obj, val) {
+    let key = val.split(".");
+    let tempObj = { ...obj };
+    for (i = 0; i < key.length; i++) {
+        if (tempObj.hasOwnProperty(key[i])) {
+            if (typeof tempObj[key[i]] != "object") {
+                return tempObj[key[i]];
+            }
+            else {
+                tempObj = { ...tempObj[key[i]] };
+            }
+        }
+        else {
+            return null;
+        }
+    }
+}
+// console.log(value[1]);
+
+console.log(search(data[0], value[0]));

@@ -15,7 +15,7 @@
         },
         {
             "header": "City",
-            "cell": "location.cityname"
+            "cell": "location.city.name"
         }
     ]
 }

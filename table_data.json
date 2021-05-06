@@ -1,9 +1,9 @@
 [
     {
-        "companyName": "ABC",
+        "companyName": "abc",
         "contact": {
-            "phone": "0123654",
-            "email": "abc@yopmail.com"
+            "phone": "123",
+            "email": "abc@demo.com"
         },
         "location": {
             "country": {
@@ -17,10 +17,112 @@
         }
     },
     {
-        "companyName": "DEF",
+        "companyName": "def",
         "contact": {
-            "phone": "0123654",
-            "email": "abc@yopmail.com"
+            "phone": "456",
+            "email": "def@demo.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    },
+    {
+        "companyName": "ghi",
+        "contact": {
+            "phone": "789",
+            "email": "ghi@demo.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    },
+    {
+        "companyName": "jkl",
+        "contact": {
+            "phone": "101112",
+            "email": "jkl@demo.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    },
+    {
+        "companyName": "mno",
+        "contact": {
+            "phone": "131415",
+            "email": "mno@demo.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    },
+    {
+        "companyName": "pqrs",
+        "contact": {
+            "phone": "16171819",
+            "email": "pqrs@demo.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    },
+    {
+        "companyName": "tuv",
+        "contact": {
+            "phone": "202122",
+            "email": "tuv@demo.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    },
+    {
+        "companyName": "wxyz",
+        "contact": {
+            "phone": "23242526",
+            "email": "wxyz@demo.com"
         },
         "location": {
             "country": {
