@@ -1,0 +1,36 @@
+[
+    {
+        "companyName": "ABC",
+        "contact": {
+            "phone": "0123654",
+            "email": "abc@yopmail.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    },
+    {
+        "companyName": "DEF",
+        "contact": {
+            "phone": "0123654",
+            "email": "abc@yopmail.com"
+        },
+        "location": {
+            "country": {
+                "name": "Bangladesh",
+                "code": "BD"
+            },
+            "city": {
+                "name": "Dhaka",
+                "code": "DHK"
+            }
+        }
+    }
+]
